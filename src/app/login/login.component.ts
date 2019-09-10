@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
       alert("Logged in Successfully");
     }
     else {
-      alert("username or password incorrect");
+      alert("Invalid credentials.")
     }
   }
 
